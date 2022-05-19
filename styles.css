@@ -1,0 +1,78 @@
+body{
+    background : url("images/station.jpg") no-repeat center center/cover;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    height: 100vh;
+    margin: 0px 0px;
+    color: rgb(255 255 255);
+}
+
+h1{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 0px;
+    padding-top: 190px;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+p{
+    border: 2px solid white;
+    background-color: rgb(189, 223, 227);
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+.para{
+    margin-top: 38px;
+}
+
+.container{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    width: 190px;
+}
+
+.bttn{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+#increment-btn{
+    background: white;
+}
+
+#decrement-btn{
+    background: white;
+}
+
+#save-btn{
+    background: greenyellow;
+}
+
+#reset-btn{
+    background: rgb(247, 59, 1);
+}
+
+#save-el{
+    font-size: 34px;
+    font-family: 'Nunito',  sans-serif;
+}
